@@ -71,9 +71,9 @@ import { Component } from '@angular/core';
     .right { display:flex; gap:20px; }
     .col { width:200px; height:600px; border-radius:0; }
     /* Figma images */
-    .hero1 { background-image:url('http://localhost:3845/assets/42f16a358c9f9683bdf1f3c018f9a968905746b7.png'); background-size:cover; background-position:center; }
-    .hero2 { background-image:url('http://localhost:3845/assets/2bd72340eed9e812106e3362565d8f3dff871669.png'); background-size:cover; background-position:center; }
-    .hero3 { background-image:url('http://localhost:3845/assets/61dc43ef66faa5853b28429f5637c9fb004385e9.png'); background-size:cover; background-position:center; }
+    .hero1 { background-image:url('src/assets/hero 1.jpg'); background-size:cover; background-position:center; }
+    .hero2 { background-image:url('src/assets/hero 2.jpg'); background-size:cover; background-position:center; }
+    .hero3 { background-image:url('src/assets/hero 3.jpg'); background-size:cover; background-position:center; }
     
     .courses { padding: 40px 100px; background: #f5f5f5; }
     .courses h2 { font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:48px; color:#020061; text-align:center; margin:0 0 20px 0; text-transform: capitalize; }
@@ -88,9 +88,9 @@ import { Component } from '@angular/core';
     .cards { display:flex; gap:40px; }
     .card { position:relative; width:400px; height:500px; border-radius:20px; overflow:hidden; }
     .card-bg { width:100%; height:100%; background-size:cover; background-position:center; }
-    .calligraphy-bg { background-image:url('http://localhost:3845/assets/af19e97cd73bb2a754ffc8d3441c0746e99f767b.png'); background-size:cover; background-position:center; }
-    .pottery-bg { background-image:url('http://localhost:3845/assets/57a205da55394eef87cda1cbed2ef4365bdf8c8e.png'); background-size:cover; background-position:center; }
-    .painting-bg { background-image:url('http://localhost:3845/assets/64027c0f42c52cce963684d9375edfa550dc3856.png'); background-size:cover; background-position:center; }
+    .calligraphy-bg { background-image:url('src/assets/calligraphy.jpg'); background-size:cover; background-position:center; }
+    .pottery-bg { background-image:url('src/assets/pottery.jpg'); background-size:cover; background-position:center; }
+    .painting-bg { background-image:url('src/assets/painting.jpg'); background-size:cover; background-position:center; }
     .card-content { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent, rgba(0,0,0,0.8)); padding:40px 20px 20px; color:white; }
     .card-content h3 { font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:36px; margin:0 0 10px 0; text-transform:uppercase; }
     .card-content p { font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:24px; margin:0; }

@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
     .form { display:flex; flex-direction:column; gap:16px; }
     .field { height:56px; border:2px solid #020061; border-radius:10px; padding:0 16px; font-size:16px; }
     .cta { margin-top:10px; background:#020061; color:#fff; border:none; border-radius:10px; padding:14px 22px; font-weight:600; font-size:18px; cursor:pointer; }
-    .art { width:520px; height:520px; border-radius:20px; background-image:url('http://localhost:3845/assets/61dc43ef66faa5853b28429f5637c9fb004385e9.png'); background-size:cover; background-position:center; }
+    .art { width:520px; height:520px; border-radius:20px; background-image:url('src/assets/painting.jpg'); background-size:cover; background-position:center; }
   `
 })
 export class LoginComponent {

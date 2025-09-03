@@ -58,9 +58,9 @@ import { Component } from '@angular/core';
     .cards { display:flex; gap:40px; }
     .card { position:relative; width:400px; height:500px; border-radius:20px; overflow:hidden; }
     .card-bg { width:100%; height:100%; background-size:cover; background-position:center; }
-    .calligraphy-bg { background-image:url('http://localhost:3845/assets/af19e97cd73bb2a754ffc8d3441c0746e99f767b.png'); background-size:cover; background-position:center; }
-    .pottery-bg { background-image:url('http://localhost:3845/assets/57a205da55394eef87cda1cbed2ef4365bdf8c8e.png'); background-size:cover; background-position:center; }
-    .painting-bg { background-image:url('http://localhost:3845/assets/64027c0f42c52cce963684d9375edfa550dc3856.png'); background-size:cover; background-position:center; }
+    .calligraphy-bg { background-image:url('src/assets/calligraphy.jpg'); background-size:cover; background-position:center; }
+    .pottery-bg { background-image:url('src/assets/pottery.jpg'); background-size:cover; background-position:center; }
+    .painting-bg { background-image:url('src/assets/painting.jpg'); background-size:cover; background-position:center; }
     .card-content { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent, rgba(0,0,0,0.8)); padding:40px 20px 20px; color:white; }
     .card-content h3 { font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:36px; margin:0 0 10px 0; text-transform:uppercase; }
     .card-content p { font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:24px; margin:0; }

@@ -32,7 +32,7 @@ import { Component } from '@angular/core';
     .header h1 { margin:0; font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:48px; color:#020061; }
     .header .sub { margin:10px 0 40px; color:#b2b2b2; font-size:24px; font-family:'Source Sans Pro', sans-serif; font-weight:600; }
     .profile { display:flex; gap:40px; align-items:flex-start; }
-    .photo { width:520px; height:520px; border-radius:20px; background-image:url('http://localhost:3845/assets/af19e97cd73bb2a754ffc8d3441c0746e99f767b.png'); background-size:cover; background-position:center; }
+    .photo { width:520px; height:520px; border-radius:20px; background-image:url('src/assets/calligraphy.jpg'); background-size:cover; background-position:center; }
     .info h2 { margin:0 0 8px; font-family:'Source Sans Pro', sans-serif; font-weight:600; font-size:36px; color:#020061; }
     .role { margin:0 0 16px; color:#020061; font-size:24px; font-family:'Source Sans Pro', sans-serif; font-weight:600; opacity:.8; }
     .desc { margin:0 0 24px; font-size:18px; color:#333; max-width:640px; }
