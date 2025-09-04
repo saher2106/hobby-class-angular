@@ -1,10 +1,13 @@
 import { TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './core/header/header.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      imports: [AppComponent, HeaderComponent],
+      providers: [provideRouter([])]
     }).compileComponents();
   });
 
@@ -20,10 +23,17 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('hobby-class');
   });
 
-  it('should render title', () => {
+  it('should render header component', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, hobby-class');
+    expect(compiled.querySelector('app-header')).toBeTruthy();
+  });
+
+  it('should render router-outlet', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('router-outlet')).toBeTruthy();
   });
 });
